@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./logo-milacho.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4FAEF9">
     <title>Milacho - Desarrollador Full Stack & Diseñador</title>
     <meta name="description" content="Portfolio profesional de Milacho - Especialista en desarrollo full stack, integraciones ERP y diseño de experiencias digitales." />
-    <script type="module" crossorigin src="./assets/index-BPHkbqO1.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BGCJufyH.css">
+    <script src="./vendor/pdfjs/pdf.min.js"></script>
+    <script>
+      if (window.pdfjsLib) {
+        window.pdfjsLib.GlobalWorkerOptions.workerSrc = '/vendor/pdfjs/pdf.worker.min.js';
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-Cg8Wfnee.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BMS7JmQP.css">
   </head>
   <body>
     <div id="root"></div>
